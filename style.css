@@ -1,12 +1,1 @@
-body{margin:0;background:#050505;color:white;font-family:Arial,sans-serif}
-header{display:flex;justify-content:space-between;align-items:center;padding:20px 8%;background:#111;position:sticky;top:0}
-.brand{display:flex;align-items:center;gap:12px}.brand small{display:block;color:#aaa}
-.logo{width:55px;height:55px;border-radius:50%;background:linear-gradient(45deg,#7b2cff,#00cfff);display:flex;align-items:center;justify-content:center;font-weight:bold}
-nav a{color:white;text-decoration:none;margin:10px}
-button,.btn{background:#8b5cff;color:white;padding:12px 22px;border-radius:30px;text-decoration:none;border:0;display:inline-block}
-.hero{text-align:center;padding:100px 8%;background:linear-gradient(135deg,#160020,#4b1170)}
-h2{color:#b783ff;text-align:center}
-section{padding:60px 8%}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-.card{background:#151515;border:1px solid #333;border-radius:20px;padding:30px;text-align:center}
-footer{text-align:center;padding:30px;background:#111}
+body{background:#050505;color:white;font-family:Arial;text-align:center}header,footer{padding:25px;background:#111}.logo{font-size:30px;color:#9b5cff}.hero{padding:80px;background:linear-gradient(135deg,#160020,#4b1170)}a{background:#8b5cff;color:white;padding:12px 25px;border-radius:30px;text-decoration:none}.grid{padding:30px;line-height:2}h2{color:#b783ff}
