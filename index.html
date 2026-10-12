@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Mithu Sarker Digital Studio - Digital Products, Video Editing, AI Creator and 3D Animation Services">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Mithu Sarker Digital Studio - Digital Products, Video Editing, AI Creator and 3D Animation">
 <title>Mithu Sarker Digital Studio</title>
 <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
@@ -15,41 +14,39 @@
 <div class="logo">MS</div>
 <div><b>Mithu Sarker</b><small>Digital Studio</small></div>
 </div>
-
-<nav>
+<div class="menu" onclick="openMenu()">☰</div>
+<nav id="nav">
 <a href="#products">Products</a>
 <a href="#services">Services</a>
 <a href="#portfolio">Portfolio</a>
 <a href="#about">About</a>
 <a href="#contact">Contact</a>
-<button onclick="toggleLanguage()">বাংলা</button>
+<button onclick="bn()">বাংলা</button>
 </nav>
 </header>
 
 <section class="hero">
 <h1>Mithu Sarker</h1>
-<h2>Digital Product Seller | Professional Video Editor | AI Creator | 3D Animator</h2>
-<p>Premium digital products and creative solutions for creators, businesses and online professionals.</p>
+<h2>Professional Video Editor | AI Creator | 3D Animator</h2>
+<p>Digital products, creative content and online solutions for creators and businesses.</p>
 <a class="btn" href="https://wa.me/c/8801959397202">Order Now</a>
 </section>
 
 <section id="products">
 <h2>Premium Digital Products</h2>
-<div class="cards">
-<div class="card">🎬 Netflix Premium 4K<br><button>Order</button></div>
-<div class="card">▶ Amazon Prime<br><button>Order</button></div>
-<div class="card">🤖 ChatGPT Pro<br><button>Order</button></div>
-<div class="card">✨ Gemini Pro<br><button>Order</button></div>
-<div class="card">🎞 CapCut Pro<br><button>Order</button></div>
-<div class="card">📈 VidIQ Premium<br><button>Order</button></div>
+<div class="grid">
+<div class="card">🎬 Netflix Premium 4K<h3>Premium Access</h3><a class="btn" href="https://wa.me/c/8801959397202">Buy Now</a></div>
+<div class="card">🤖 ChatGPT Pro<h3>AI Subscription</h3><a class="btn" href="https://wa.me/c/8801959397202">Buy Now</a></div>
+<div class="card">✨ Gemini Pro<h3>AI Solution</h3><a class="btn" href="https://wa.me/c/8801959397202">Buy Now</a></div>
+<div class="card">🎞 CapCut Pro<h3>Creative Tool</h3><a class="btn" href="https://wa.me/c/8801959397202">Buy Now</a></div>
 </div>
 </section>
 
 <section id="services">
 <h2>Professional Services</h2>
-<div class="cards">
+<div class="grid">
 <div class="card">YouTube SEO & Analysis</div>
-<div class="card">Channel Setup & Branding</div>
+<div class="card">Channel Branding Setup</div>
 <div class="card">Monetization Support</div>
 <div class="card">Video Editing</div>
 <div class="card">Graphic Design</div>
@@ -60,25 +57,24 @@
 </section>
 
 <section id="portfolio">
-<h2>Portfolio</h2>
-<div class="cards">
-<div class="card">🎬 Video Editing Showcase</div>
-<div class="card">🤖 AI Video Projects</div>
-<div class="card">🎨 Graphic Design Works</div>
-<div class="card">🧸 3D Animation Projects</div>
+<h2>Creative Portfolio</h2>
+<div class="grid">
+<div class="card">🎬 Video Editing</div>
+<div class="card">🤖 AI Videos</div>
+<div class="card">🎨 Graphics Design</div>
+<div class="card">🧸 3D Animation</div>
 </div>
 </section>
 
 <section id="about">
-<h2>About Me</h2>
-<p>I am Mithu Sarker, a Professional Video Editor, Graphic Designer, AI Video Creator and 3D Animator. I create modern digital content and provide digital solutions worldwide.</p>
+<h2>Why Choose Me</h2>
+<p>Professional creative services with modern AI technology, video editing expertise and digital solutions.</p>
 </section>
 
 <section id="contact">
 <h2>Contact</h2>
 <p>Email: mithusarker71@gmail.com</p>
 <p>LinkedIn: youtubespecialist</p>
-<p>Facebook: Mithu Sarker</p>
 <a class="btn" href="https://wa.me/c/8801959397202">WhatsApp</a>
 </section>
 
@@ -87,10 +83,8 @@ Mithu Sarker Digital Studio © 2026
 </footer>
 
 <script>
-function toggleLanguage(){
-alert("বাংলা Version will be added.");
-}
+function openMenu(){document.getElementById("nav").classList.toggle("show")}
+function bn(){alert("বাংলা Version coming soon")}
 </script>
-
 </body>
 </html>
