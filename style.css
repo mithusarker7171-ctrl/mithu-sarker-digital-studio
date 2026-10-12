@@ -1,18 +1,12 @@
-*{box-sizing:border-box;font-family:Arial,sans-serif}
-body{margin:0;background:#050505;color:white}
-header{display:flex;justify-content:space-between;align-items:center;padding:18px 7%;background:#111;position:sticky;top:0}
+body{margin:0;background:#050505;color:white;font-family:Arial,sans-serif}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 8%;background:#111;position:sticky;top:0}
 .brand{display:flex;align-items:center;gap:12px}.brand small{display:block;color:#aaa}
-.logo{width:55px;height:55px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:linear-gradient(45deg,#7b2cff,#00cfff);font-size:22px;font-weight:bold}
-nav a{color:white;text-decoration:none;margin:8px}
-button,.btn{background:#8b5cff;color:white;padding:12px 22px;border-radius:30px;border:0;text-decoration:none;display:inline-block}
-.dark{background:#333}
-.hero{text-align:center;padding:110px 8%;background:linear-gradient(135deg,#12051f,#40106b)}
-.hero h2,h2{color:#b783ff}
+.logo{width:55px;height:55px;border-radius:50%;background:linear-gradient(45deg,#7b2cff,#00cfff);display:flex;align-items:center;justify-content:center;font-weight:bold}
+nav a{color:white;text-decoration:none;margin:10px}
+button,.btn{background:#8b5cff;color:white;padding:12px 22px;border-radius:30px;text-decoration:none;border:0;display:inline-block}
+.hero{text-align:center;padding:100px 8%;background:linear-gradient(135deg,#160020,#4b1170)}
+h2{color:#b783ff;text-align:center}
 section{padding:60px 8%}
-h2{text-align:center}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-.card{background:#151515;border:1px solid #333;padding:30px;border-radius:20px;text-align:center;transition:.3s}
-.card:hover{transform:translateY(-5px)}
-footer{text-align:center;background:#111;padding:30px}
-.menu{display:none}
-@media(max-width:700px){header{flex-wrap:wrap}.menu{display:block}nav{width:100%;text-align:center}nav a{display:block}}
+.card{background:#151515;border:1px solid #333;border-radius:20px;padding:30px;text-align:center}
+footer{text-align:center;padding:30px;background:#111}
